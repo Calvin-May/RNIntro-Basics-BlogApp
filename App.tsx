@@ -10,7 +10,7 @@ import {
 
 const RootNavigation = createNativeStackNavigator();
 
-export default function App() {
+const App = () => {
   return (
     <NavigationContainer>
       <RootNavigation.Navigator
@@ -25,7 +25,11 @@ export default function App() {
       </RootNavigation.Navigator>
     </NavigationContainer>
   );
-}
+};
+
+export default () => {
+  return <App />;
+};
 
 const NavigatorScreenOptions: NativeStackNavigationOptions = {
   title: 'Blogs',
