@@ -1,0 +1,24 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~53.0.8",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true,
+  "packageManager": "pnpm@9.3.0+sha512.ee7b93e0c2bd11409c6424f92b866f31d3ea1bef5fbe47d3c7500cdc3c9668833d2e55681ad66df5b640c61fa9dc25d546efa54d76d7f8bf54b13614ac293631"
+}
